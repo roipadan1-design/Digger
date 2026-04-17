@@ -261,8 +261,8 @@ code{background:var(--surface);padding:3px 7px;border-radius:4px;font-size:11px;
 // ── State ──
 let clientId='', discogsToken='', accessToken=null, currentUser=null;
 let allTracks=[], selectedIds=new Set(), trackSources={}, currentPreview=null;
-const REDIRECT_URI = window.location.origin + window.location.pathname;
-document.getElementById('redirectDisplay').textContent = REDIRECT_URI;
+const REDIRECT_URI = 'https://roipadan1-design.github.io/Digger/';
+  document.getElementById('redirectDisplay').textContent = REDIRECT_URI;
 
 // ── PKCE helpers ──
 function generateRandomString(length){
